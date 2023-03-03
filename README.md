@@ -1,6 +1,11 @@
 # sample_spreadsheets
 スプレッドシートへの書き込み
 
+```
+yarn
+yarn write -n [シート名]
+```
+
 ## GCP上の操作
 - Google Sheets APIを有効化する
 - サービスアカウントを作成して、キーを発行する
@@ -11,8 +16,3 @@
 
 ## プロジェクト上での操作
 - .envファイルを修正
-
-```
-yarn
-yarn write -n [シート名]
-```
