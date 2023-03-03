@@ -1,0 +1,16 @@
+{
+  "name": "sample_spreadsheets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ryuto-imai/sample_spreadsheets.git",
+  "author": "ryuto-imai <ryuu.0806@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "write": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "dotenv": "^16.0.3",
+    "google-spreadsheet": "^3.3.0"
+  }
+}
